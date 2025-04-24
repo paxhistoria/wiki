@@ -21,7 +21,7 @@
   * Starting events
   * Starting round
 * Rebellions:
-  * Add a new 'sponser rebels' or similar action type
+  * Add a new 'sponsor rebels' or similar action type
 
 ## Bug List:
 
