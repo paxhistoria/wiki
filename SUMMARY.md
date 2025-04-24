@@ -15,7 +15,7 @@
   * [🏝️ regions](scripting-language/regions.md)
 * [🎱 Editing Presets](editing-presets/README.md)
   * [ℹ️ Edit Description](editing-presets/edit-description.md)
-  * [🏞️ Edit Countries](editing-presets/edit-countries.md)
+  * [🏞️ Edit A Country](editing-presets/edit-a-country.md)
   * [🖼️ Edit Map](editing-presets/edit-map.md)
   * [⏳ Edit Timeline](editing-presets/edit-timeline.md)
   * [👺 Advanced](editing-presets/advanced.md)
