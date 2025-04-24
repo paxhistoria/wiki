@@ -1,6 +1,68 @@
-name: Send Discord Notification
+name: Wiki Discord Notification
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
 
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Get categorized changed files
+        id: files
+        run: |
+          MODIFIED=""
+          ADDED=""
+          DELETED=""
+
+          while IFS=$'\t' read -r status file; do
+            # Only process markdown files
+            if [[ "$file" == *.md ]]; then
+              slug="${file%.md}"
+              case "$status" in
+                M) MODIFIED="$MODIFIED- [${slug}](https://wiki.paxhistoria.co/${slug})"$'\n' ;;
+                A) ADDED="$ADDED- [${slug}](https://wiki.paxhistoria.co/${slug})"$'\n' ;;
+                D) DELETED="$DELETED- ${slug} (deleted)"$'\n' ;;
+              esac
+            fi
+          done < <(git diff --name-status ${{ github.event.before }} ${{ github.sha }})
+
+          DESC=""
+          if [[ -n "$MODIFIED" ]]; then
+            DESC="${DESC}🟡 **Modified Pages:**"$'\n'"$MODIFIED"$'\n'
+          fi
+          if [[ -n "$ADDED" ]]; then
+            DESC="${DESC}🟢 **Added Pages:**"$'\n'"$ADDED"$'\n'
+          fi
+          if [[ -n "$DELETED" ]]; then
+            DESC="${DESC}🔴 **Deleted Pages:**"$'\n'"$DELETED"$'\n'
+          fi
+
+          # Store the final description and flag for whether any markdowns changed
+          echo "description<<EOF" >> $GITHUB_OUTPUT
+          echo "$DESC" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          if [[ -z "$DESC" ]]; then
+            echo "skip_notification=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_notification=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Discord notification
+        if: steps.files.outputs.skip_notification == 'false'
+        uses: tsickert/discord-webhook@v7.0.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          username: "PaxHistoria Wiki Bot"
+          avatar-url: "https://github.com/paxhistoria.png"
+          embed-title: "📘 Pax Historia Wiki updated!"
+          embed-description: "${{ steps.files.outputs.description }}"
+          embed-color: 3447003
+          embed-timestamp: "${{ github.event.head_commit.timestamp }}"
