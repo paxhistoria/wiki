@@ -24,8 +24,8 @@ jobs:
           DELETED=""
 
           while IFS=$'\t' read -r status file; do
-            # Only process markdown files
-            if [[ "$file" == *.md ]]; then
+            # Only process .md files, excluding SUMMARY.md
+            if [[ "$file" == *.md && "$file" != "SUMMARY.md" ]]; then
               slug="${file%.md}"
               case "$status" in
                 M) MODIFIED="$MODIFIED- [${slug}](https://wiki.paxhistoria.co/${slug})"$'\n' ;;
@@ -46,7 +46,6 @@ jobs:
             DESC="${DESC}🔴 **Deleted Pages:**"$'\n'"$DELETED"$'\n'
           fi
 
-          # Store final description and a flag for whether anything should be posted
           echo "description<<EOF" >> $GITHUB_OUTPUT
           echo "$DESC" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
