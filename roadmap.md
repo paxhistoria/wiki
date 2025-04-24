@@ -22,6 +22,9 @@
   * Starting round
 * Rebellions:
   * Add a new 'sponsor rebels' or similar action type
+* Improving the AI quality:
+  * Build eval infrastructure for at least chat invitations, stat manager, generate actions, and chat with user.
+  * In game bug reporting
 
 ## Bug List:
 
