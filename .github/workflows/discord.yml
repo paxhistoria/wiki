@@ -1,0 +1,6 @@
+name: Send Discord Notification
+
+on:
+  push:
+  workflow_dispatch:
+
