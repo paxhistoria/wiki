@@ -6,7 +6,16 @@ description: The official guide
 
 ## Game Overview:
 
-Pax Historia is a sandbox game you can play on the [web](https://www.paxhistoria.co). You choose a starting period 'preset', then select which country you would like to play as. Gameplay consists of turns that each last one month, where you have a chance to negotiate with other countries, manage your army, adjust your domestic policies, scheme against enemies, and more.
+Pax Historia is a sandbox roleplaying game available on [our website](https://www.paxhistoria.co). You choose a starting situation (called a 'preset'), then select which country you would like to play as.
+
+## Unique Features
+
+* **Chat** at the beginning of each turn to coordinate with (or mislead!) other countries.
+* **Freedom** in what 3 actions you take during your turn. Describe any policy, make an announcement, move your battalions, support a separatist movement in your enemy's country - you can do practically anything.&#x20;
+* **Your advisor is always available** to offer advice or answer questions about how the game works.
+* **Marketplace of user-generated presets** with diverse maps, countries, and alt history starting points.
+* **Exciting conflict mechanics** like getting to send out distress messages to other countries begging for help if you get attacked!
+* **Easy gameplay** with features like our Defense Minister which removes the need to tediously align your troops along domestic borders.
 
 ## Getting Started:
 
