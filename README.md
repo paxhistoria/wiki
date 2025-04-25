@@ -17,7 +17,7 @@ layout:
 
 ## Game Overview:
 
-Pax Historia is a sandbox roleplaying game available on [our website](https://www.paxhistoria.co). You choose a starting situation (called a 'preset'), then select which country you would like to play as.
+Pax Historia is a sandbox roleplaying game available on [our website](https://www.paxhistoria.co). You choose a starting situation (like WWI or the French Revolution), then select a country to play as.
 
 ## Unique Features
 
