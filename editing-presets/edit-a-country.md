@@ -6,7 +6,7 @@ description: Within a preset
 
 Simply click the countries tab in the edit presets screen, then click on a particular country to view/edit its statistics!
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Details that can be edited in an active country</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Details that can be edited in an active country</p></figcaption></figure>
 
 ### Core Statistics
 

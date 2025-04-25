@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🌐 Welcome to the Pax Historia Wiki](README.md)
+* [Official Pax Historia Wiki](README.md)
 * [▶️ Gameplay](gameplay/README.md)
   * [🐣 Creating A Game](gameplay/creating-a-game.md)
   * [🧠 Your Advisor](gameplay/your-advisor.md)

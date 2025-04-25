@@ -1,6 +1,10 @@
 ---
-description: The official guide
+cover: .gitbook/assets/image (2).png
+coverY: 0
 layout:
+  cover:
+    visible: true
+    size: full
   title:
     visible: true
   description:
@@ -13,9 +17,7 @@ layout:
     visible: false
 ---
 
-# 🌐 Welcome to the Pax Historia Wiki
-
-## Game Overview:
+# Official Pax Historia Wiki
 
 Pax Historia is a sandbox roleplaying game available on [our website](https://www.paxhistoria.co). You choose a starting situation (like WWI or the French Revolution), then select a country to play as.
 
@@ -28,7 +30,7 @@ Pax Historia is a sandbox roleplaying game available on [our website](https://ww
 * **Exciting conflict mechanics** like getting to send out distress messages to other countries begging for help if you get attacked!
 * **Easy gameplay** with features like our Defense Minister which removes the need to tediously align your troops along domestic borders.
 
-## Can't find something on our Wiki?
+## Can't find something? Have feedback?
 
 Please join our [Official Discord](https://discord.gg/ZZKUeXxAra) and send a message there.&#x20;
 
