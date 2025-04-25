@@ -24,8 +24,15 @@ jobs:
           DELETED=""
 
           while IFS=$'\t' read -r status file; do
-            # Only process .md files, excluding SUMMARY.md
-            if [[ "$file" == *.md && "$file" != "SUMMARY.md" ]]; then
+            # Special case for README.md as landing page
+            if [[ "$file" == "README.md" ]]; then
+              slug=""
+              case "$status" in
+                M) MODIFIED="$MODIFIED- [landing page](https://wiki.paxhistoria.co/)"$'\n' ;;
+                A) ADDED="$ADDED- [landing page](https://wiki.paxhistoria.co/)"$'\n' ;;
+                D) DELETED="$DELETED- landing page (deleted)"$'\n' ;;
+              esac
+            elif [[ "$file" == *.md && "$file" != "SUMMARY.md" ]]; then
               slug="${file%.md}"
               case "$status" in
                 M) MODIFIED="$MODIFIED- [${slug}](https://wiki.paxhistoria.co/${slug})"$'\n' ;;
