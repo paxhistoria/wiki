@@ -54,7 +54,25 @@
 * [ ] Prompt users to do this when their starting tokens run out?
 * [ ] Update the server to use their free usage optimally
 
+**New Map Library (react-map-gl):**
 
+* [ ] Finalize basemap styles
+* [ ] Gameplay page:
+  * [ ] Show regions and countries&#x20;
+  * [ ] Show battalion locations
+  * [ ] Show battalion movement lines
+  * [ ] Show active conflict icons
+  * [ ] Show map tooltip with info based on click location and zoom level
+* [ ] Preset editing page:
+  * [ ] Show regions and countries
+  * [ ] Show region markers
+  * [ ] Show oceans
+  * [ ] Show bottom left region name label and owner on hovers
+
+**User Analytics:**
+
+* [ ] Funnels to answer questions like "what percent of users make it to starting a game" and "among users who start their first game, what percent of them finish the first round?"
+* [ ] Good information on exactly how many users reach critical engagement thresholds like "played for at least 3 hours in the last month:
 
 ## Bug List:
 
