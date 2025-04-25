@@ -5,7 +5,7 @@
 **AI advisor:**
 
 * [ ] Suggested messages
-* [ ] Starting message
+* [ ] Starting message?
 * [ ] Adapts for current chat information
 * [ ] Adapts for the threat survey
 
@@ -47,6 +47,14 @@
 * [ ] generate actions
 * [ ] chat with user
 * [ ] advisor
+
+**Free mode:**
+
+* [ ] Allow users to privately upload an openrouter / google ai studio api key
+* [ ] Prompt users to do this when their starting tokens run out?
+* [ ] Update the server to use their free usage optimally
+
+
 
 ## Bug List:
 
