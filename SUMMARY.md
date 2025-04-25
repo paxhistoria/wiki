@@ -2,6 +2,8 @@
 
 * [🌐 Welcome to the Pax Historia Wiki](README.md)
 * [▶️ Gameplay](gameplay/README.md)
+  * [🐣 Creating A Game](gameplay/creating-a-game.md)
+  * [🧠 Your Advisor](gameplay/your-advisor.md)
   * [🗺️ The Map](gameplay/the-map.md)
   * [🖋️ Creating Actions](gameplay/creating-actions.md)
   * [📈 Statistics Changes](gameplay/statistics-changes.md)

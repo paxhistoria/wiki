@@ -1,28 +1,23 @@
 ---
-description: >-
-  Pax Historia is the ultimate sandbox that gives you free reign to do whatever
-  you want with any historical, alternate historical, or fantasy setting, with
-  realistic behavior powered by A.I. for once!
+description: The official guide
 ---
 
 # 🌐 Welcome to the Pax Historia Wiki
 
-Begin by trying a game from our variety of presets. Scheme and sow discord, or unify and build trust.&#x20;
+## Game Overview:
 
+Pax Historia is a sandbox game you can play on the [web](https://www.paxhistoria.co). You choose a starting period 'preset', then select which country you would like to play as. Gameplay consists of turns that each last one month, where you have a chance to negotiate with other countries, manage your army, adjust your domestic policies, scheme against enemies, and more.
 
+## Getting Started:
 
-{% embed url="https://drive.google.com/file/d/1aOCf23X05yo_hOUDu3qYJDA4WVt6flzr/view?usp=sharing" %}
+{% content-ref url="gameplay/" %}
+[gameplay](gameplay/)
+{% endcontent-ref %}
 
-Play the 20th century large scale warfare experience, send the Zimmerman Telegraph, ship off Lenin, launch Operation Sealion, experience the endless schemes and realpolitik of Bismarck's Era, conquer and achieve glory in the middle ages of a medieval Europe, sacrifice tribute as the Aztecs, fight over Jing Province, or trick other factions into doing your dirty work.&#x20;
+{% content-ref url="editing-presets/" %}
+[editing-presets](editing-presets/)
+{% endcontent-ref %}
 
+## Can't find something on our Wiki?
 
-
-<div align="right"><figure><img src=".gitbook/assets/Roman_Empire_Flag.png" alt="" width="320"><figcaption></figcaption></figure></div>
-
-<figure><img src=".gitbook/assets/Eastern_Han-Three_Kingdoms_Battle_Painting_a.png" alt="" width="320"><figcaption></figcaption></figure>
-
-<div align="left"><figure><img src=".gitbook/assets/640px-Das_Bismarck-Denkmal_in_Düsseldorf_von_August_Bauer_und_Johannes_Röttger_(1899).png" alt="" width="160"><figcaption></figcaption></figure></div>
-
-Anything! Follow the actions of history, or, create your own schemes, experiencea custom timeline, launch any operation. Do whatever and the timeline will react to it.\
-\
-Here on the wiki, there will be guides on how to play, how to create preset timelines for specific settings, and other details. Development is easy and sustainable!
+Please join our [Official Discord](https://discord.gg/ZZKUeXxAra) and send a message there.&#x20;
