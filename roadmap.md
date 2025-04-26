@@ -5,14 +5,19 @@
 **AI advisor:**
 
 * [ ] Suggested messages
-* [ ] Starting message?
 * [ ] Adapts for current chat information
 * [ ] Adapts for the threat survey
+* [ ] MUCH better prompt needed to explain the entire game, not just bits and pieces like now
 
 **Reworked chat UI:**
 
 * [ ] Focus on starting new chats
 * [ ] Can start working on threat survey (but not submit it) before all AI-on-AI chats have completed
+
+**In Game Tutorial**
+
+* [ ] Modals or interactive arrows with information (videos?) on how to play
+* [ ] Need to update data structure around the current user, maybe a flag like "finishedTutorial"?
 
 **Wiki:**
 
@@ -36,9 +41,9 @@
 **In game bug reporting:**
 
 * [x] Data structure for bugs
-* [ ] Functional button in the advanced menu to report a bug with description
-* [ ] Easily allow admin to view bugged games
-* [ ] Discord notification in a (privileged?) bug channel when someone reports
+* [x] Functional button in the advanced menu to report a bug with description
+* [x] Easily allow admin to view bugged games
+* [x] Discord notification in a (privileged?) bug channel when someone reports
 
 **Build eval infrastructure for at least:**
 
