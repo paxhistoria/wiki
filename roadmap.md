@@ -4,14 +4,14 @@
 
 **AI advisor:**
 
-* [ ] Suggested messages
-* [ ] Adapts for current chat information
-* [ ] Adapts for the threat survey
+* [x] Suggested messages
+* [x] Adapts for current chat information
 * [ ] MUCH better prompt needed to explain the entire game, not just bits and pieces like now
 
 **Reworked chat UI:**
 
-* [ ] Focus on starting new chats
+* [x] Focus on starting new chats
+* [x] Works on mobile
 * [ ] Can start working on threat survey (but not submit it) before all AI-on-AI chats have completed
 
 **In Game Tutorial**
