@@ -34,7 +34,7 @@
 **Rebellions:**
 
 * [ ] Add a new 'sponsor rebels' or similar action type
-* [ ] Add new statistics like chancesOfCoup, chancesOfElection, chancesOfCivilWar, chancesOfSeparatists
+* [ ] Add new statistics like chanceOfCoup, chanceOfElection, chanceOfCivilWar, chanceOfSeparatists
 * [ ] Correctly trigger rebellions during rounds
 * [ ] Add simple heuristic consequences for each type of rebellion
 
@@ -53,26 +53,14 @@
 * [ ] chat with user
 * [ ] advisor
 
-**Free mode:**
+**Payments**
 
-* [ ] Allow users to privately upload an openrouter / google ai studio api key
-* [ ] Prompt users to do this when their starting tokens run out?
-* [ ] Update the server to use their free usage optimally
+* [ ] Set up billing with stripe or someone to allow for users to pay for more tokens
 
-**New Map Library (react-map-gl):**
+**New Map**&#x20;
 
-* [ ] Finalize basemap styles
-* [ ] Gameplay page:
-  * [ ] Show regions and countries&#x20;
-  * [ ] Show battalion locations
-  * [ ] Show battalion movement lines
-  * [ ] Show active conflict icons
-  * [ ] Show map tooltip with info based on click location and zoom level
-* [ ] Preset editing page:
-  * [ ] Show regions and countries
-  * [ ] Show region markers
-  * [ ] Show oceans
-  * [ ] Show bottom left region name label and owner on hovers
+* [x] Switch to new basemap with zooms down to street level and dark mode
+* [x] Fix a ton of bugs
 
 **User Analytics:**
 
@@ -81,7 +69,6 @@
 
 ## Bug List:
 
-* Tons of map bugs related to conflict&#x20;
 * Added new prompt options:
   * In troop redirection added ${numberOfRemainingTroopsInDefeatedArmy}
   * ${defeatedArmy.remainingTroops}
@@ -89,6 +76,5 @@
 * In WW1 Preset, created an ocean region around South Africa so that pathfinding algorithm isn't nearly forced to go west under South America instead of east under Africa
 * Made the "delete logs" button functional
 * Removed user ID from chat api request body, made it based solely on verified auth cookie
-* Create one universal component for displaying a transformed event&#x20;
 * Make it so that countries can move troops within the same region from attack -> defend or vice versa
 * Remove code for and delete report-uri account
