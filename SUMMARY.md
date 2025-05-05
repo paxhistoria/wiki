@@ -8,6 +8,7 @@
   * [🎩 Chats](gameplay/chats.md)
   * [⚖️ Trust Survey](gameplay/trust-survey.md)
   * [🖋️ Creating Actions](gameplay/creating-actions.md)
+  * [👲 Troop Movement](gameplay/troop-movement.md)
   * [📈 Statistics Changes](gameplay/statistics-changes.md)
   * [⚠️ Conflict](gameplay/conflict.md)
 * [🎱 Editing Presets](editing-presets/README.md)
