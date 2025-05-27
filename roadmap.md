@@ -73,9 +73,13 @@
 
 * Remove code for and delete report-uri account
 * Advisor needs to see the latest message correctly
-* Chats needs to see the latest message correctly
+* ~~Chats needs to see the latest message correctly~~
 * Default prompts not used properly when creating games
 * Fix issues with speed -&#x20;
   * when clicking on public profile
   * when clicking on a preset from preset list
   * when clicking on account details
+* simple-presets -> presets, simple-games -> games, move old to legacy
+* round number updates multiple times, triggering multiple map rerenders
+* ~~battalions being editable on published presets~~
+* textareas not available when tutorial modal open
