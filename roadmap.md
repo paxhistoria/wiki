@@ -72,7 +72,7 @@
 ## Bug List:
 
 * Remove code for and delete report-uri account
-* Advisor needs to see the latest message correctly
+* ~~Advisor needs to see the latest message correctly~~
 * ~~Chats needs to see the latest message correctly~~
 * Default prompts not used properly when creating games
 * Fix issues with speed -&#x20;
@@ -83,3 +83,4 @@
 * round number updates multiple times, triggering multiple map rerenders
 * ~~battalions being editable on published presets~~
 * textareas not available when tutorial modal open
+* tutorial modal scrolls outside\
