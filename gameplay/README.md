@@ -23,4 +23,4 @@ Lastly is the date/time jump button, in the top right corner. That is essentiall
 \
 The game is a turn by turn timeline system, each turn being a time-span you can choose. The options are 1 week, 1 month, 6 months, and 1 year. When you select one of the Time Jumps, an AI will simulate the world/game, depending on your actions and the historical preset, from the date you were on, to the date you jumped to. Like a round based conquest and strategy game.&#x20;
 
-<figure><img src="../.gitbook/assets/S12PH.png" alt=""><figcaption><p>This image is of the WW2 preset, there are several other historical presets to pick.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/mapww2Pax.png" alt=""><figcaption><p>This image is of the WW2 preset, there are several other historical presets to pick.</p></figcaption></figure>

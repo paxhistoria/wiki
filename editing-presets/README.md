@@ -10,4 +10,4 @@ Or a non-historical fantasy setting if you'd like, or if you'd like more maps th
 \
 Anyways, besides that there are the details of the game. Demographics, Economies, Factions in that time, the Date, along with the owners of regions, ext. These can all be edited with ease.
 
-<figure><img src="../.gitbook/assets/S5PH.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/presetspax.png" alt=""><figcaption></figcaption></figure>
