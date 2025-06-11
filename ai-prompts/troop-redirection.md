@@ -1,2 +1,0 @@
-# 🪖 Troop Redirection
-

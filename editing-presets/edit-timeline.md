@@ -8,4 +8,4 @@ In each preset editor, there is a timeline with past events if you want to creat
 \
 Simply click the timeline and start adding events. However many as you want, or you can add events in addition to historical events if you simply want to make minor edits.\
 \
-So, say you want a preset for, "What if an Asteroid hit earth in the year 1600?" or a preset timeline for "What if the Allies lost World War Two?" or anything you want! This is what you could edit.
+So, say you want a preset for, "What if an Asteroid hit earth in the year 1600?" or a preset timeline for "What if the Allies lost World War Two?" or anything you want! This is what you could edit. This section is here for the A.I. which simulates the game, to understand the context of this custom preset.
